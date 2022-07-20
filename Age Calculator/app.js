@@ -7,6 +7,5 @@ function Person(name, dob){
         return Math.abs(ageDate.getUTCFullYear() - 1970)
     }
 }
-
 const amas = new Person('Amas', '7-15-2002');
 console.log(amas.calculateAge());
