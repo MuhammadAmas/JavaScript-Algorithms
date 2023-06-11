@@ -1,7 +1,7 @@
-function Person(name, dob){
+function Person(name, dob) {
     this.name = name;
     this.birthDay = new Date(dob);
-    this.calculateAge = function(){
+    this.calculateAge = function () {
         const difference = Date.now() - this.birthDay.getTime();
         const ageDate = new Date(difference);
         return Math.abs(ageDate.getUTCFullYear() - 1970)
