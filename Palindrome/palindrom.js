@@ -1,5 +1,3 @@
-// Palindrom
-
 function isPalindrome(str) {
     let check = true
     for (let i = 0; i < Math.ceil(str.length / 2); i++) {

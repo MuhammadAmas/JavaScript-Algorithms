@@ -1,5 +1,3 @@
-// Frequency Calculator
-
 function frequencyCalculator(arr) {
     let frequency = {};
 
